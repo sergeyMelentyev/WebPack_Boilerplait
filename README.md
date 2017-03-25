@@ -14,5 +14,9 @@ create .babelrc file with presets
 
 npm install babel-preset-es2015 babel-preset-react --save-dev
 
+npm install url-loader file-loader --save-dev
+
+npm install style-loader css-loader --save-dev
+
 npm start
 </p>
