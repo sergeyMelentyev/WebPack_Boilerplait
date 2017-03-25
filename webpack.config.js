@@ -15,6 +15,10 @@ module.exports = {
 				}
 			},
 			{
+				test: /\.(png|jpg)$/,
+				loader: "url-loader"
+			},
+			{
 				test: /\.css$/,
 				exclude: /(node_modules)/,
 				loader: "style-loader!css-loader",
