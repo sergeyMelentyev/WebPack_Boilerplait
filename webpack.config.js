@@ -10,6 +10,11 @@ module.exports = {
 		path: path.join(__dirname, "build"),
 		filename: "[name].bundle.js"
 	},
+	devServer: {
+		inline: true,
+		contentBase: "./build",
+		port: 3000
+	},
 	module: {
 		loaders: [
 			{
