@@ -6,7 +6,7 @@ npm install webpack --save-dev
 
 create webpack.config.js
 
-in package.json add "scripts": { "start": "webpack -w" }
+in package.json add "scripts": { "build": "webpack", "start": "webpack-dev-server" }
 
 npm install babel-loader babel-core --save-dev
 
